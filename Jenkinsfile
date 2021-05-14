@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage("deploy to dev"){
       steps{
-        echo("Deployed to dev from git ")
+        echo("Deployed to Uat from git ")
       }
     }
   }
