@@ -5,14 +5,16 @@ pipeline{
      when {
         branch "dev"
       }
-      steps{
+ steps{
         echo "deploy to dev environment"
+      }   
       }
     }
     stage ("deploy to preprod")
     {
       when{
         branch "preprod"
+
       }
      steps{
         echo "deploy to preprod environment"
