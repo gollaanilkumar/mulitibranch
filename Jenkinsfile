@@ -9,7 +9,6 @@ pipeline{
         echo "deploy to dev environment"
       }   
       }
-    }
     stage ("deploy to preprod")
     {
       when{
